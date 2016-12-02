@@ -23,7 +23,7 @@ const config = require('./config');
 const oauth2 = require('./lib/oauth2');
 
 const app = express();
-var http = require('http').Server(app);
+var http = require('https').Server(app);
 var io = require('socket.io')(http);
 
 

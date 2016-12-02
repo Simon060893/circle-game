@@ -1,0 +1,20 @@
+
+extends ../base.jade
+block content
+
+   div( id='results')
+      button(onclick="location.reload()",value="Reconect",name="Reconnect") Reconnect
+   div( id='warn')
+      div( id='warnCount')
+   div( id='game')
+      p Game will finish in
+      div( id='gameCount')
+   div( id='draw-area')
+      canvas
+   div( id='log')
+   script(src="/socket.io/socket.io.js")
+   script(src="/app/client.js")
+   script(src="/app/signature_pad.min.js")
+
+
+

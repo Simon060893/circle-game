@@ -1,0 +1,46 @@
+#warn{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    background: rgba(0, 0, 0, 0.45);
+}
+#game,#warn,#results{
+    display: none;
+    position: absolute;
+    left: 0;
+}
+#game,#results{
+    top:12%;
+}
+#warnCount{
+    position: absolute;
+    left:50% ;
+    top:50%;
+    transform: translate(-50%,-50%);
+    font-size: 48px;
+    color: white;
+}
+#log{
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    left: 0;
+}
+.user{
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    width: 110px;
+}
+.user>img,.user>p{
+    width: 100%;
+}
+#draw-area{
+    width: 450px;
+    height: 450px;
+    float: right;
+    border:1px solid black;
+
+}

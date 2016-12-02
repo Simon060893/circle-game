@@ -1,0 +1,29 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "End to end sample for running Node.JS applications on Google Cloud Platform",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Sam",
+  "contributors": [],
+  "dependencies": {
+    "@google-cloud/datastore": "^0.1.1",
+    "@google-cloud/storage": "^0.1.1",
+    "body-parser": "^1.15.2",
+    "connect-memcached": "^0.2.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "jade": "^1.11.0",
+    "kerberos": "^0.0.21",
+    "lodash": "^4.14.2",
+    "nconf": "^0.8.4",
+    "passport": "^0.3.2",
+    "passport-google-oauth20": "^1.0.0",
+    "prompt": "^1.0.0",
+    "socket.io": "^1.7.1"
+  },
+  "devDependencies": {},
+  "engines": {}
+}

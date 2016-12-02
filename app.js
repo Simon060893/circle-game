@@ -201,7 +201,7 @@ app.use((err, req, res, next) => {
 
 if (module === require.main) {
     // Start the server
-    const server = http.listen(config.get('PORT'), () => {
+    const server = http.listen(process.env.PORT || config.get('PORT'), () => {
         const port = server.address().port;
         console.log(`App listening on port ${port}`);
     });

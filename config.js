@@ -66,7 +66,8 @@ nconf
 
     OAUTH2_CLIENT_ID: '325064998018-14vbp6gaovgap4rc6c4pig6bd2fghido.apps.googleusercontent.com',
     OAUTH2_CLIENT_SECRET: '3v298qC_VAhfYuGoqEIbqa8E',
-    OAUTH2_CALLBACK: 'https://circle-draw-game.herokuapp.com/auth/google/callback',//'http://localhost:8080/auth/google/callback',
+    //OAUTH2_CALLBACK:  'http://localhost:8080/auth/google/callback',
+    OAUTH2_CALLBACK: 'http://circle-draw-game.herokuapp.com/auth/google/callback',//'http://localhost:8080/auth/google/callback',
 
     // Port the HTTP server
     PORT: 8080,

@@ -70,7 +70,7 @@ nconf
     OAUTH2_CALLBACK: 'https://circle-draw-game.herokuapp.com/auth/google/callback',//'http://localhost:8080/auth/google/callback',
 
     // Port the HTTP server
-    PORT: 8080,
+    PORT: 3100,
 
     SECRET: 'keyboardcat'
   });
